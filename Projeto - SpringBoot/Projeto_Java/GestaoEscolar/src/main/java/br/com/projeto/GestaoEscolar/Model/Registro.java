@@ -11,7 +11,7 @@ public class Registro {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(length = 15, unique = true, nullable = false)
+    @Column(length = 50, unique = true, nullable = false)
     private String curso;
 
     @Column(columnDefinition = "TINYTEXT", nullable = false)
