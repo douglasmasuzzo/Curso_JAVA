@@ -8,17 +8,23 @@
 		<version>3.5.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>Projeto_Java</groupId>
-	<artifactId>Fridge</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>Fridge</name>
-	<description>Demonstração para estudo </description>
+	<groupId>br.com.projeto</groupId>
+	<artifactId>gestao-escolar</artifactId>
+	<version>1.0.0</version>
+	<name>Sistema de Gestão Escolar</name>
+	<description>
+        API REST para gerenciamento de registros e cursos escolares utilizando SpringBoot e MySQL ( WorkBench ).
+    </description>
 	<url/>
 	<licenses>
 		<license/>
 	</licenses>
 	<developers>
-		<developer/>
+        <developer>
+            <name> Douglas Masuzzo </name>
+            <email> dev.masdouglas4001@gmail.com </email>
+            <organization> Estudos - Curso_JAVA </organization>
+        </developer>
 	</developers>
 	<scm>
 		<connection/>
@@ -46,8 +52,8 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
