@@ -1,4 +1,4 @@
-package Projeto_Java.Fridge;
+package br.com.projeto.GestaoEscolar;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,11 +1,9 @@
-package Projeto_Java.Fridge.Repository;
-import Projeto_Java.Fridge.Model.Comida;
+package br.com.projeto.GestaoEscolar.Repository;
+import br.com.projeto.GestaoEscolar.Model.Registro;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
 
-public interface RepositoryComida extends JpaRepository< Comida, Long > {
+public interface RepositoryRegistro extends JpaRepository< Registro, Integer > {
 }
-
 /*
     Arquitetura por Camadas ( M.V.C )
 
