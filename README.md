@@ -13,6 +13,7 @@ Este projeto consiste em uma aplicação Java Spring Boot desenvolvida com o obj
   - Consolidar boas práticas de árvores de arquivos
 
 --------------------------------------------------------------------
+
 ### _Ferramentas_ ###
   - Java 17
   - SpringBoot
@@ -52,11 +53,15 @@ Este projeto consiste em uma aplicação Java Spring Boot desenvolvida com o obj
   - Interagir com o DB
   - Utilizar o SD JPA
   - Abstrair operações CRUD
+ 
+- **Model**
+  - Define as estruturas dos dados (objetos/entidades).
+  - Representa as tabelas do banco de dados e seus atributos.
+  - Utiliza anotações JPA para mapear a relação entre classes Java e o banco de dados.   
 
 ### _Persistência de Dados_ ###
 
 A persitência é realizada através da JPA/Hibernate, utilizando anotações para mapear entidades Java para tabelas do DB
-
 - Uso do `` @Entity ``
 - Mapeamento de tabela com `` @Table ``
 - Enumerações com `` @Enumerated( EnumType.STRING ) ``
